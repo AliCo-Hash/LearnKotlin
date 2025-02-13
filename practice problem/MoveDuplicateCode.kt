@@ -30,5 +30,10 @@ fun main () {
 }
 
 fun cityWeather(city: String, lowTemp: Int, highTemp: Int, chanceRain:Int): String {
-    return "City: $city\nLow temperature: $lowTemp, High temperature: $highTemp\nChance of rain: $chanceRain%\n" 
+    return """
+    City: $city
+    Low temperature: $lowTemp, High temperature: $highTemp
+    Chance of rain: $chanceRain%
+    
+    """.trimIndent()
 }
